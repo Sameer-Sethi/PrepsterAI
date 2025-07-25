@@ -1,5 +1,5 @@
 import React from "react";
-import { CopyrightIcon, Github, Linkedin, Twitter } from "lucide-react";
+import { CopyrightIcon, Github, Linkedin} from "lucide-react";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex space-x-4">
           <a
-            href="https://github.com/Sameer-Sethi"
+            href="https://github.com/Ayush202255"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-500 transition-colors"
@@ -25,22 +25,13 @@ const Footer = () => {
             <Github className="h-6 w-6" />
           </a>
           <a
-            href="https://www.linkedin.com/in/sameersethi30/"
+            href="https://www.linkedin.com/in/ayush-mishra-7200a8267/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-500 transition-colors"
             aria-label="LinkedIn"
           >
             <Linkedin className="h-6 w-6" />
-          </a>
-          <a
-            href="https://x.com/SAMEERSETH88453"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-indigo-500 transition-colors"
-            aria-label="Twitter"
-          >
-            <Twitter className="h-6 w-6" />
           </a>
         </div>
       </div>
